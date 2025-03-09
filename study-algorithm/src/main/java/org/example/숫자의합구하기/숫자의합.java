@@ -23,8 +23,8 @@ public class 숫자의합 {
         //sNum을 다시 char[]형 변수 cNum에 변환하여 저장
         char[] cNum = sNum.toCharArray();
 
-        for (int i = 0; i < cNum.length; i++) {
-            result += cNum[i] + '0';
+        for (int i = 0; i < n; i++) {
+            result += cNum[i] - '0';
         }
 
         System.out.println("result = " + result);
